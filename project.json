@@ -1,0 +1,178 @@
+{
+  "settings": {
+    "currentPage": "index.html"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "brand": "",
+            "textColor": "#ffffff",
+            "items": [
+              {
+                "title": "HOME",
+                "href": "#top",
+                "pages": "",
+                "anchor": ""
+              },
+              {
+                "title": "ABOUT US",
+                "href": "#content5-6",
+                "pages": "",
+                "anchor": ""
+              },
+              {
+                "title": "WHY CHOOSE US?",
+                "href": "#features1-3",
+                "pages": "",
+                "anchor": ""
+              }
+            ]
+          },
+          "logo": "file:///L:/Data/Europhotonics Erasmus Mundus/apps mobile/Redglass/Landing page/redglass-logo-1.png",
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_params": {
+            "bgImageRadio": true,
+            "bgImage": "file:///L:/Data/Europhotonics Erasmus Mundus/apps mobile/Redglass/Landing page/redglass technolog ad space.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#28324e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.3"
+          },
+          "text": "\n                        <h1>We Display your Imagination</h1><h1><span style=\"font-size: 21px; line-height: 30px;\">Designing ads on digital displays is our expertise and we provide the most targeted ads possible.&nbsp;</span></h1>\n                    ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://mobirise.com\" id=\"note-editor-112\">CONTACT US<br></a>",
+          "_name": "header1",
+          "_anchor": "header1-1"
+        },
+        {
+          "_params": {
+            "bgImageRadio": false,
+            "bgImage": "images/bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#a11d28",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.6
+          },
+          "caption": "\n                            \n                            <h3 style=\"color: #fff\">ABOUT US</h3> <p style=\"color: #fff\">We build digital ad space in restaurants, food courts and cafes. Our network can provide over 375,000 impressions per week on a single campaign. Our audience group is mainly working adults and office people in the KL city area.</p><p><span style=\"color: rgb(255, 255, 255);\">If you are interested in advertising or sharing your info on our digital platform, please feel free to connect with us.</span><br></p>\n                        \n                        ",
+          "_name": "content5",
+          "_anchor": "content5-6",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "images/bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "img1": "file:///L:/Data/Europhotonics Erasmus Mundus/apps mobile/Redglass/Landing page/advertising.jpg",
+          "img2": "file:///L:/Data/Europhotonics Erasmus Mundus/apps mobile/Redglass/Landing page/Redglass.jpg",
+          "img3": "file:///L:/Data/Europhotonics Erasmus Mundus/apps mobile/Redglass/Landing page/Store owner.jpg",
+          "img4": "images/unlimited-websites.png",
+          "caption1": "\n                            <h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">Can choose stores to advertise in, hence able to target desired demographics.</span><br></h3><p>Upload campaign material on website.</p><p>Make payment &amp; track live performance of campaign on website.<br></p>\n                        ",
+          "caption2": "\n                            <h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">Revenue from campaigns – share a % with store owners.</span></h3><h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">Update LivePagers.</span></h3><h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">Able to implement LivePager in food courts, self-service fast food chains &amp; restaurants etc.</span><br><br><br></h3>\n                        ",
+          "caption3": "\n                            <h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">Receive monthly payment for using the system.</span></h3><h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">Reduce operating costs from less manpower.</span></h3><h3><span style=\"color: rgb(153, 153, 153); line-height: 26px;\">No more angry customers waiting in queues.</span><br><br><br></h3>\n                        ",
+          "caption4": "<h3>UNLIMITED WEBSITES</h3><p>Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "button1": "\n                                \n                            ",
+          "button2": "\n                                \n                            ",
+          "button3": "\n                                \n                            ",
+          "button4": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-default\">LEARN MORE</a>",
+          "_name": "features1",
+          "_anchor": "features1-3",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "inverse": false,
+            "bgImageRadio": false,
+            "bgImage": "images/bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#a11d28",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "\n                    <h2>WE DISPLAY YOUR IMAGINATION!</h2>\n                ",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-default\" href=\"http://mobirise.com\" id=\"note-editor-15\">CONTACT US<br></a>",
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-5",
+          "_styles": {
+            "H2": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "bgImageRadio": false,
+            "bgImage": "images/bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2c2929",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "\n                <p>Redglass Technology © 2015 | &nbsp;Contact us: hello@redglass.co</p>\n            ",
+          "_name": "footer1",
+          "_anchor": "footer1-5",
+          "_styles": {
+            "P": {
+              "color": "#cccccc"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
