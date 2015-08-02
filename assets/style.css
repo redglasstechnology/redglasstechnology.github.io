@@ -1192,7 +1192,7 @@ html {
 }
 @media (max-width: 767px) {
   .content-2 .thumbnail > img {
-    width: 100%;
+    width: 70%;
     max-width: 300px;
   }
 }
