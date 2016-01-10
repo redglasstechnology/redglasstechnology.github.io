@@ -1,0 +1,59 @@
+<div id="view-outer" ng-controller="mainTabCtrl" uploader="uploader" nv-file-drop="" ng-show="itemArray" ng-init="initController()">
+	<script type="text/javascript">
+		var sortingOrder = 'name';
+	</script>
+	
+	<div id="page-header">
+		<span class="page-main-title">Manage</span>
+	</div>
+	<div id="page-body">
+		<table id="promo-image-display-table" border="1">
+			<tr class="item-display" ng-repeat="imageItems in itemArray">
+				<td>
+					<span class="promo-image">Promo Image {{ imageItems.position }}: </span>
+				</td>
+				<td>
+					<span class="promo-image-value">{{ imageItems.value | orderBy:'position' }}</span>
+					<span class="promo-image-value-none warning" ng-hide="imageItems.value">(None)</span>
+				</td>
+				<td>
+					<span class="promo-image-change"><button ng-click="changeItem(imageItems.position)">Change</button></span>
+					<span class="promo-image-view" ng-show="imageItems.value"><a target="_blank" href="../partner{{ imageItems.value }}"><button>View</button></a></span>
+					<span class="promo-image-view" ng-show="imageItems.value"><button ng-click="delete_partner_images(imageItems.position)">Delete</button></span>
+				</td>
+			</tr>
+		</table>
+		<div id="add-item-container-id" class="add-item-container" uploader="uploader">
+			<div class="current-position-display add-item-row">
+				<span>Slot Position: </span>
+				<span class="current-position displayed-value" ng-show="currentChangingItemPosition">{{ currentChangingItemPosition }}</span>
+				<span class="current-position current-position-none displayed-value warning" ng-hide="currentChangingItemPosition">(None)</span>
+			</div>
+			<div class="current-value-display add-item-row">
+				<span>Current image: </span>
+				<span class="current-value displayed-value" ng-show="itemArray[currentChangingItemPosition - 1].value">{{ itemArray[currentChangingItemPosition - 1].value }}</span>
+				<span class="current-value current-value-none displayed-value warning" ng-hide="itemArray[currentChangingItemPosition - 1].value">(None)</span>
+			</div>
+			<div class="add-item-row">
+				<span class="uploaded-file">Selected File:</span>
+				<span ng-repeat="item in uploader.queue" class="displayed-value">
+					<span><strong>{{ item.file.name }}</strong></span>
+					<span ng-show="uploader.isHTML5" nowrap>({{ item.file.size/1024/1024|number:2 }} MB)</span>
+				</span>
+			</div>
+			<div ng-hide="uploader.isHTML5" class="upload-single-with-select">
+				<input type="file" name="file_upload"  ng-model="file_upload" nv-file-select="" uploader="uploader" ng-show="false">
+				<button type="button" name="upload_button"  ng-model="upload_button" ng-click="stimulateClearAndUpload(1)" ng-hide="add_item.file_upload.$viewValue">Upload</button>
+				<button type="button" name="upload_and_clear_button"  ng-model="upload_and_clear_button" ng-click="stimulateClearAndUpload(1)" ng-show="add_item.file_upload.$viewValue">Clear & Upload</button>
+			</div>
+			<div ng-show="uploader.isHTML5" class="clickable" ng-click="stimulateClearAndUpload()">
+				<div class="well my-drop-zone" nv-file-over="" uploader="uploader">
+					Click to upload or Drop your image here
+				</div>
+			</div>
+			<div id="update-selected-slot" class="clickable" ng-click="update_partner_images()">
+				<span>Save</spAN>
+			</div>
+		</div>
+	</div>
+</div>

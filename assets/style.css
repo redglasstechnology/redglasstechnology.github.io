@@ -545,7 +545,7 @@ html {
   line-height: 27px;
   margin-bottom: 0;
   padding-bottom: 10px;
-  padding-top: 29px;
+  padding-top: 10px;
   position: relative;
   text-align: left;
 }
@@ -1199,7 +1199,7 @@ html {
 .content-2 .thumbnail h3 {
   font-size: 16px;
   letter-spacing: 1px;
-  margin-bottom: 32px;
+  margin-bottom: 11px;
   margin-top: 11px;
 }
 @media (max-width: 767px) {
